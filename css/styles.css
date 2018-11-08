@@ -70,11 +70,11 @@ h1 {
   transition: .3s background;
 }
 
-/*#polina button:hover {
-   background: rgba(0,0,0,0.5);
+#polina button:hover {
+  background: rgba(0, 0, 0, 0.5);
 }
 
-a {
+/*a {
   display: inline-block;
   color: #fff;
   text-decoration: none;

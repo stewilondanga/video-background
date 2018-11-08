@@ -1,13 +1,13 @@
-/*var navigate = (function() {
-	$('.dd').toggle();
-	$('.dd_btn').click(function() {
-		var dataName = $(this).attr('data-name');
-		$('.dd').hide();
-		$('.' + dataName).toggle();
-	});
+var navigate = (function() {
+  $('.dd').toggle();
+  $('.dd_btn').click(function() {
+    var dataName = $(this).attr('data-name');
+    $('.dd').hide();
+    $('.' + dataName).toggle();
+  });
 })();
 
-var vid = document.getElementById("bgvid");
+/*var vid = document.getElementById("bgvid");
 var pauseButton = document.querySelector("#polina button");
 
 if (window.matchMedia('(prefers-reduced-motion)').matches) {

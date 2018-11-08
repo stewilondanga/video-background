@@ -16,11 +16,11 @@ if (window.matchMedia('(prefers-reduced-motion)').matches) {
   pauseButton.innerHTML = "Paused";
 }
 
-/*function vidFade() {
+function vidFade() {
   vid.classList.add("stopfade");
 }
 
-vid.addEventListener('ended', function()
+/*vid.addEventListener('ended', function()
 {
 // only functional if "loop" is removed
 vid.pause();

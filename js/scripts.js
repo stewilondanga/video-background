@@ -27,7 +27,7 @@ vid.addEventListener('ended', function() {
   vidFade();
 });
 
-/*
+
 pauseButton.addEventListener("click", function() {
   vid.classList.toggle("stopfade");
   if (vid.paused) {
